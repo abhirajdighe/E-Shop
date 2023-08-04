@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+
+.inputBox{
+  display: block;
+  margin-top: 30px;
+  width: 300px;
+  height: 30px;
+  border: solid;
+  border-color: skyblue;
+  /* margin: 30px 30% 0 0; */
+}
+
+.signup{
+  /* transform: translate(50% 50%); */
+  margin-left: 40%;
+  margin-top: 9%;
+}
+
+.signup h1{
+  /* text-align: center; */
+  color:rgb(137, 15, 137);
+}
+
+.signup button{
+  margin-top: 30px;
+  width: 309px;
+  height: 35px;
+  background-color: skyblue;
+}
+
+.signup button:hover{
+  background-color: black;
+  color: white;
+}
+
+.login{
+  margin-left: 39%;
+  margin-top: 170px;
+}
+
+.login button{
+  margin-top: 30px;
+  width: 309px;
+  height: 35px;
+  background-color: skyblue;
+}
+
+.login button:hover{
+  background-color: black;
+  color: white;
+}
+
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 52px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 100%;
+}
+
+.align{
+  text-align: center;
+}
+
+.addproduct{
+  margin-left: 39%;
+  margin-top: 100px;
+}
+
+.inputbox{
+  margin-top: 20px;
+  width: 309px;
+  height: 27px;
+  border-color: skyblue;
+  border-width: 3px;
+}
+
+.addbtn{
+  margin-top: 20px;
+  width: 110px;
+  height: 35px;
+  background-color: skyblue;
+  border-width: 4px;
+}
+
+.addbtn:hover{
+  background-color: black;
+  color: white;
+}
